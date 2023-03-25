@@ -1,5 +1,10 @@
 package main
 
+import (
+	"encoding/json"
+	"fmt"
+)
+
 /*基本类型和它们的字面量表示*/
 /*
 Go支持如下内置基本类型：
@@ -30,4 +35,19 @@ func main() {
 
 	type Text = string // TEXT和string是不同类型
 
+	var records []map[string]interface{}
+	if err := json.Unmarshal([]byte(`[{"test":"yu"}]`), &records); err != nil {
+		// handle error
+	}
+
+	fmt.Println(records)
+
+	records[0]["test"] = "John"
+
+	updatedData, err := json.Marshal(records)
+	if err != nil {
+		// handle error
+	}
+
+	fmt.Println(string(updatedData))
 }
