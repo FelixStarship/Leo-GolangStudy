@@ -4,34 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcacc89-5d67-4212-a3a9-7d4e27d526c5" name="变更" comment="golang中的流程控制语句">
-      <change afterPath="$PROJECT_DIR$/1-firstGolang/06-switch-case/main.go" afterDir="false" />
+    <list default="true" id="fbcacc89-5d67-4212-a3a9-7d4e27d526c5" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/1-firstGolang/07-goroutine/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/06-rabbitmq-hash/p/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-temporalio/01-worker/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-temporalio/02-task/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-temporalio/workflow/my_workflow.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/frequent/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/frequent/activities.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/frequent/starter/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/frequent/worker/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/frequent/workflow.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/frequent/workflow_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/infrequent/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/infrequent/activities.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/infrequent/starter/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/infrequent/worker/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/infrequent/workflow.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/infrequent/workflow_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/periodic_sequence/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/periodic_sequence/activities.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/periodic_sequence/child_workflow.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/periodic_sequence/starter/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/periodic_sequence/worker/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/periodic_sequence/workflow.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/periodic_sequence/workflow_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polling/testservice.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +72,7 @@
       <recent name="\\wsl$\Ubuntu-20.04\home\hxz\go\src\Leo-GolangStudy\1-firstGolang\06-rabbitmq-hash\p" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go (3)">
+  <component name="RunManager" selected="Go 构建.go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -116,13 +91,13 @@
       <filePath value="$PROJECT_DIR$/1-firstGolang/06-rabbitmq-hash/p/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github/FelixStarship/Leo-GolangStudy/2-temporalio/01-new-timer-task" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github/FelixStarship/Leo-GolangStudy/2-temporalio/01-new-timer-task" />
+      <package value="github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/2-temporalio/01-new-timer-task/main.go" />
+      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -149,7 +124,7 @@
       <kind value="FILE" />
       <package value="Leo-GolangStudy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/2-temporalio/01-new-timer-task/main.go" />
+      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/main.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -164,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine" />
+        <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build main.go (3)" />
         <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/06-rabbitmq-hash/p" />
         <item itemvalue="Go 构建.go build main.go (2)" />
-        <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/2-temporalio/01-new-timer-task" />
-        <item itemvalue="Go 构建.go build main.go" />
       </list>
     </recent_temporary>
   </component>
