@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbcacc89-5d67-4212-a3a9-7d4e27d526c5" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/1-firstGolang/07-goroutine/deferred/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,7 @@
       <recent name="\\wsl$\Ubuntu-20.04\home\hxz\go\src\Leo-GolangStudy\1-firstGolang\06-rabbitmq-hash\p" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go (2)">
+  <component name="RunManager" selected="Go 构建.go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/deferred">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,6 +92,15 @@
       <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/deferred" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leo-GolangStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/deferred" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/deferred/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -107,15 +117,6 @@
       <package value="Leo-GolangStudy" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/schedule/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leo-GolangStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="Leo-GolangStudy" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/1-firstGolang/06-switch-case/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/deferred" />
         <item itemvalue="Go 构建.go build main.go (2)" />
         <item itemvalue="Go 构建.go build main.go (1)" />
         <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine" />
         <item itemvalue="Go 构建.go build main.go" />
-        <item itemvalue="Go 构建.go build main.go (3)" />
       </list>
     </recent_temporary>
   </component>
