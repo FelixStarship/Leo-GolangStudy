@@ -18,7 +18,7 @@ func main() {
 	// 逻辑处理器P
 	fmt.Println(runtime.GOMAXPROCS(0))
 	// M-P-G模型:
-	/*			M表示系统线程
+	/*		M表示系统线程
 		    P表示逻辑处理器（并非上述的逻辑CPU）
 	        G表示协程
 	*/
