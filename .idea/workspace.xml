@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcacc89-5d67-4212-a3a9-7d4e27d526c5" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/1-firstGolang/07-goroutine/deferred/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fbcacc89-5d67-4212-a3a9-7d4e27d526c5" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +156,8 @@
     <MESSAGE value="temporalio使用" />
     <MESSAGE value="golang中的流程控制语句" />
     <MESSAGE value="golang中的协程并发同步" />
-    <option name="LAST_COMMIT_MESSAGE" value="golang中的协程并发同步" />
+    <MESSAGE value="延迟函数调用（deferred function call）" />
+    <option name="LAST_COMMIT_MESSAGE" value="延迟函数调用（deferred function call）" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

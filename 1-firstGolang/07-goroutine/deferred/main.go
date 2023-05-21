@@ -36,8 +36,8 @@ func main() {
 	}()
 	fmt.Println("2")
 
-	var a int
-	defer a //defer中的表达式必须为函数  defer fn:
+	//var a int
+	//defer a //defer中的表达式必须为函数  defer fn:
 	return
 	defer fmt.Println("not reachable")
 }
