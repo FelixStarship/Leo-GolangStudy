@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcacc89-5d67-4212-a3a9-7d4e27d526c5" name="变更" comment="" />
+    <list default="true" id="fbcacc89-5d67-4212-a3a9-7d4e27d526c5" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-firstGolang/07-goroutine/deferred/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-firstGolang/07-goroutine/deferred/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,13 +119,13 @@
       <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/schedule/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="Leo-GolangStudy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/main.go" />
+      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/deferred/main.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -138,10 +141,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/deferred" />
+        <item itemvalue="Go 构建.go build main.go (3)" />
         <item itemvalue="Go 构建.go build main.go (2)" />
         <item itemvalue="Go 构建.go build main.go (1)" />
         <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine" />
-        <item itemvalue="Go 构建.go build main.go" />
       </list>
     </recent_temporary>
   </component>
