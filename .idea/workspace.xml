@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbcacc89-5d67-4212-a3a9-7d4e27d526c5" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch03/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch04/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch05/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-kubernetes/01-spdy-executor/ch01/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch03/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch03/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
@@ -61,9 +64,9 @@
     &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/hxz/go/src/Leo-GolangStudy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/hxz/go/src/client-go&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -75,7 +78,7 @@
       <recent name="\\wsl$\Ubuntu-20.04\home\hxz\go\src\Leo-GolangStudy\1-firstGolang\06-rabbitmq-hash\p" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go">
+  <component name="RunManager" selected="Go 构建.go build main.go (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -94,31 +97,31 @@
       <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch03/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/deferred" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Leo-GolangStudy/1-firstGolang/07-goroutine/ch04" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/deferred" />
+      <package value="Leo-GolangStudy/1-firstGolang/07-goroutine/ch04" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/deferred/main.go" />
+      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch04/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/ch05" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leo-GolangStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/ch05" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch05/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="Leo-GolangStudy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/schedule/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leo-GolangStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="Leo-GolangStudy" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/deferred/main.go" />
+      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch05/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -142,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build main.go (1)" />
+        <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/ch05" />
         <item itemvalue="Go 构建.go build main.go" />
+        <item itemvalue="Go 构建.go build Leo-GolangStudy/1-firstGolang/07-goroutine/ch04" />
         <item itemvalue="Go 构建.go build Leo-GolangStudy/1-firstGolang/07-goroutine/ch03" />
-        <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/deferred" />
-        <item itemvalue="Go 构建.go build main.go (3)" />
-        <item itemvalue="Go 构建.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +166,8 @@
     <MESSAGE value="golang中的协程并发同步" />
     <MESSAGE value="延迟函数调用（deferred function call）" />
     <MESSAGE value="恐慌和恢复" />
-    <option name="LAST_COMMIT_MESSAGE" value="恐慌和恢复" />
+    <MESSAGE value="获取时间的交集和差集" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取时间的交集和差集" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
