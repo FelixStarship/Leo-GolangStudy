@@ -6,10 +6,10 @@ import (
 )
 
 /*
-  协程调度
+协程调度
 
-  // linux：当前逻辑cpu的个数：cat /proc/cpuinfo| grep "processor"| wc -l
-  1.并非所有处于运行状态的协程都在执行。在【任一时刻】，只能最多有和【逻辑CPU数目】一样多的协程在同时执行
+// linux：当前逻辑cpu的个数：cat /proc/cpuinfo| grep "processor"| wc -l
+1.并非所有处于运行状态的协程都在执行。在【任一时刻】，只能最多有和【逻辑CPU数目】一样多的协程在同时执行
 */
 func main() {
 	// 当前系统逻辑cpu个数
