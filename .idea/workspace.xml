@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcacc89-5d67-4212-a3a9-7d4e27d526c5" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/2-type-system/01-type-of-data/basic-type/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-kubernetes/01-spdy-executor/ch01/main.go" afterDir="false" />
+    <list default="true" id="fbcacc89-5d67-4212-a3a9-7d4e27d526c5" name="变更" comment="golang中的类型系统">
+      <change afterPath="$PROJECT_DIR$/2-type-system/01-pointer/ch01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-type-system/01-pointer/ch02/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/01-basic-code-element-demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-getting-started/01-basic-code-element-demo/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/02-keyword/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-getting-started/02-keyword/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/03-basic-type/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-getting-started/03-basic-type/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/04-const-and-variable/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-getting-started/04-const-and-variable/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/05-func-declaration/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-getting-started/05-func-declaration/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/06-switch-case/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-getting-started/06-switch-case/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-getting-started/07-goroutine/ch01/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch02/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-getting-started/07-goroutine/ch02/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch03/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/6-work/01-time-calculate/ch03/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch04/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/6-work/01-time-calculate/ch04/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch05/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/6-work/01-time-calculate/ch05/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/07-goroutine/deferred/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-getting-started/07-goroutine/deferred/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/07-goroutine/schedule/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-getting-started/07-goroutine/schedule/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-firstGolang/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1-getting-started/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-kubernetes/01-spdy-executor/ch01/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-type-system/01-type-of-data/basic-type/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/2-type-system/01-type-of-data/basic-type/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +63,7 @@
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/hxz/go/src/Leo-GolangStudy&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -90,7 +76,7 @@
       <recent name="\\wsl$\Ubuntu-20.04\home\hxz\go\src\Leo-GolangStudy\1-firstGolang\06-rabbitmq-hash\p" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build github/FelixStarship/Leo-GolangStudy/2-type-system/01-type-of-data/basic-type">
+  <component name="RunManager" selected="Go 构建.go build main.go (2)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -100,15 +86,6 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Leo-GolangStudy/1-firstGolang/07-goroutine/ch04" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leo-GolangStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="Leo-GolangStudy/1-firstGolang/07-goroutine/ch04" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch04/main.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/ch05" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -116,6 +93,15 @@
       <package value="github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/ch05" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch05/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github/FelixStarship/Leo-GolangStudy/2-type-system/01-pointer/ch01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leo-GolangStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github/FelixStarship/Leo-GolangStudy/2-type-system/01-pointer/ch01" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/2-type-system/01-pointer/ch01/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build github/FelixStarship/Leo-GolangStudy/2-type-system/01-type-of-data/basic-type" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -136,13 +122,13 @@
       <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch05/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="Leo-GolangStudy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch03/main.go" />
+      <filePath value="$PROJECT_DIR$/2-type-system/01-pointer/ch02/main.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -157,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build main.go (2)" />
+        <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/2-type-system/01-pointer/ch01" />
         <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/2-type-system/01-type-of-data/basic-type" />
         <item itemvalue="Go 构建.go build main.go (1)" />
         <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/1-firstGolang/07-goroutine/ch05" />
-        <item itemvalue="Go 构建.go build main.go" />
-        <item itemvalue="Go 构建.go build Leo-GolangStudy/1-firstGolang/07-goroutine/ch04" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +165,8 @@
     <MESSAGE value="延迟函数调用（deferred function call）" />
     <MESSAGE value="恐慌和恢复" />
     <MESSAGE value="获取时间的交集和差集" />
-    <option name="LAST_COMMIT_MESSAGE" value="获取时间的交集和差集" />
+    <MESSAGE value="golang中的类型系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="golang中的类型系统" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

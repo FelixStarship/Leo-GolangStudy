@@ -12,7 +12,9 @@ import "fmt"
         int8、uint8（byte）、int16、uint16、int32（rune）、uint32、int64、uint64、int、uint、uintptr。
         float32、float64。
         complex64、complex128。
+
 -----------------------------------------------------------------------------------------------------
+
 概念：组合类型（composite type）
 
     指针类型 - 类C指针
