@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcacc89-5d67-4212-a3a9-7d4e27d526c5" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/2-type-system/03-struct/ch01/main.go" afterDir="false" />
+    <list default="true" id="2afab6e4-e7a8-494c-82c8-fc4e5c9170de" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/2-type-system/03-struct/ch02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-type-system/03-struct/ch03/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-type-system/01-pointer/ch01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/2-type-system/02-pointer/ch01/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-type-system/01-pointer/ch02/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/2-type-system/02-pointer/ch02/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,128 +25,55 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="5" />
-  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
-    <option name="urls">
-      <list>
-        <option value="file://$PROJECT_DIR$/../../" />
-      </list>
-    </option>
-    <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MEXNpBOlzcpSDPAOGyjTvD4zS3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2R9VGY2cGEw1Rw06YGCBMkDxZEC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
-    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/hxz/go/src/Leo-GolangStudy&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "C:/Users/Felix"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="\\wsl$\Ubuntu-20.04\home\hxz\go\src\Leo-GolangStudy" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="\\wsl$\Ubuntu-20.04\home\hxz\go\src\Leo-GolangStudy\03-work\01-time-calculate" />
-      <recent name="\\wsl$\Ubuntu-20.04\home\hxz\go\src\Leo-GolangStudy\1-firstGolang\07-goroutine\ch01" />
-      <recent name="\\wsl$\Ubuntu-20.04\home\hxz\go\src\Leo-GolangStudy\1-firstGolang\06-rabbitmq-hash\p" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Go 构建.go build github/FelixStarship/Leo-GolangStudy/2-type-system/03-struct/ch01">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="Leo-GolangStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="Leo-GolangStudy" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github/FelixStarship/Leo-GolangStudy/2-type-system/01-pointer/ch01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leo-GolangStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github/FelixStarship/Leo-GolangStudy/2-type-system/01-pointer/ch01" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/2-type-system/01-pointer/ch01/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github/FelixStarship/Leo-GolangStudy/2-type-system/01-type-of-data/basic-type" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leo-GolangStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github/FelixStarship/Leo-GolangStudy/2-type-system/01-type-of-data/basic-type" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/2-type-system/01-type-of-data/basic-type/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github/FelixStarship/Leo-GolangStudy/2-type-system/03-struct/ch01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leo-GolangStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github/FelixStarship/Leo-GolangStudy/2-type-system/03-struct/ch01" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/2-type-system/03-struct/ch01/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="Leo-GolangStudy" />
+      <package value="Leo-GolangStudy/2-type-system/03-struct/ch03" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/1-firstGolang/07-goroutine/ch05/main.go" />
+      <filePath value="$PROJECT_DIR$/2-type-system/03-struct/ch03/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="Leo-GolangStudy" />
+      <package value="Leo-GolangStudy/2-type-system/03-struct/ch02" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/2-type-system/01-pointer/ch02/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="Leo-GolangStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
-      <package value="Leo-GolangStudy" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
+      <filePath value="$PROJECT_DIR$/2-type-system/03-struct/ch02/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/2-type-system/03-struct/ch01" />
-        <item itemvalue="Go 构建.go build main.go (2)" />
-        <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/2-type-system/01-pointer/ch01" />
-        <item itemvalue="Go 构建.go build github/FelixStarship/Leo-GolangStudy/2-type-system/01-type-of-data/basic-type" />
-        <item itemvalue="Go 构建.go build main.go (1)" />
+        <item itemvalue="Go 构建.go build main.go" />
+        <item itemvalue="Go 构建.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -155,21 +81,8 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="go中的基本类型和它们的字面量表现" />
-    <MESSAGE value="变量和常量" />
-    <MESSAGE value="函数声明和调用" />
-    <MESSAGE value="temporalio使用" />
-    <MESSAGE value="golang中的流程控制语句" />
-    <MESSAGE value="golang中的协程并发同步" />
-    <MESSAGE value="延迟函数调用（deferred function call）" />
-    <MESSAGE value="恐慌和恢复" />
-    <MESSAGE value="获取时间的交集和差集" />
-    <MESSAGE value="golang中的类型系统" />
-    <MESSAGE value="GO指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="GO指针" />
-  </component>
   <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
   </component>
 </project>
