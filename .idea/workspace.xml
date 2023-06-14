@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2afab6e4-e7a8-494c-82c8-fc4e5c9170de" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/2-type-system/03-struct/ch02/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-type-system/03-struct/ch03/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-type-system/04-arry-slice-map/ch01/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,29 +35,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "C:/Users/Felix"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Felix&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leo-GolangStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="Leo-GolangStudy/2-type-system/03-struct/ch03" />
+      <package value="Leo-GolangStudy/2-type-system/04-arry-slice-map/ch01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/2-type-system/03-struct/ch03/main.go" />
+      <filePath value="$PROJECT_DIR$/2-type-system/04-arry-slice-map/ch01/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -74,12 +73,17 @@
       <list>
         <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build main.go" />
+        <item itemvalue="Go 构建.go build main.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GO中结构体字面不可寻址以及隐式解引用" />
+    <option name="LAST_COMMIT_MESSAGE" value="GO中结构体字面不可寻址以及隐式解引用" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
