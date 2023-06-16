@@ -1,0 +1,9 @@
+.idea
+# 忽略所有的 .log 文件
+*.log
+
+# 忽略 build 文件夹
+/build
+
+# 忽略 temp 文件夹下的所有内容
+/temp/*
