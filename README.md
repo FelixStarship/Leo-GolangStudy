@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/FelixStarship/Leo-GolangStudy/master/docs/images/FiUDmQDWQAAZeES.jpg" alt="logo" height="120" align="right" />
 
-# [GO语言入门到进阶，一路升级打怪之旅、助力各位***Gopher***搬砖愉快](https://xiaobot.net/p/2048?refer=95b9525d-690b-4f10-97d4-f92fe533ba2d)
+# 🚌 [GO语言入门到进阶，一路升级打怪之旅、助力各位***Gopher***搬砖愉快](https://xiaobot.net/p/2048?refer=95b9525d-690b-4f10-97d4-f92fe533ba2d)
 > GO语言入门到进阶这门课程会持续更新、欢迎大家添加微信入群交流、共同学习进步、加入内卷大军。
 
 ### 订阅格子衫来微信公众号
@@ -12,7 +12,7 @@
 ![](docs/images/GO语言入门到进阶.png)
 
 
-# Go 开发者路线图
+# 📖 Go 开发者路线图
 
 > 在 2023 年 成为一名 [Go](https://golang.org/) 开发者的路线图：
 
@@ -32,7 +32,7 @@
 
 ![Roadmap](docs/golang-developer-roadmap/Go开发者路线图.drawio.png)
 
-## 资源
+## 🚅 资源
 
 1. 先决条件
 
