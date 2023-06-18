@@ -1,4 +1,5 @@
-<img src="https://raw.githubusercontent.com/talkgo/night/master/static/images/2018-12-11-night-reading-go.jpg" alt="logo" height="120" align="right" />
+<img src="https://raw.githubusercontent.com/FelixStarship/Leo-GolangStudy/master/docs/images/FiUDmQDWQAAZeES.jpg" alt="logo" height="120" align="right" />
+
 # GO语言入门到进阶一路升级打怪之旅、助力各位***Gopher***搬砖愉快
 ![](docs/images/GO语言入门到进阶.png)
 
