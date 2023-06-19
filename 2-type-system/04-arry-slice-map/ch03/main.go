@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // 1.容器赋值
 /*
    package main
@@ -145,6 +147,61 @@ var s = append([]string(nil), "格子衫来", "gzsl")
 	fmt.Println(s)
 	fmt.Println(cap(s)) //4
 */
+
+// 4.make内置函数创建切片
+
+/*
+	  // 创建映射。
+		fmt.Println(make(map[string]int)) // map[]
+		m := make(map[string]int, 3)
+		fmt.Println(m, len(m)) // map[] 0
+		m["C"] = 1972
+		m["Go"] = 2009
+		fmt.Println(m, len(m)) // map[C:1972 Go:2009] 2
+
+		// 创建切片。
+		s := make([]int, 3, 5)
+		fmt.Println(s, len(s), cap(s)) // [0 0 0] 3 5
+		s = make([]int, 2)
+		fmt.Println(s, len(s), cap(s)) // [0 0] 2 2
+*/
+// ------------------------------------------------------------
+/*
+// 创建映射
+	fmt.Println(make(map[string]int)) // map[] 非零值映射
+
+	m := make(map[string]int, 3)
+	fmt.Println(m, len(m))
+
+	m["gzsl"] = 1996
+	m["Go"] = 2009
+	fmt.Println(m, len(m))
+
+	// 创建切片
+	s := make([]int, 3, 5)
+	fmt.Println(s, len(s), cap(s))
+	s = make([]int, 2)
+	fmt.Println(s, len(s), cap(s))
+*/
+
+// 5.使用内置new函数来创建容器值
+/*
+    m := *new(map[string]int)   // <=> var m map[string]int
+	fmt.Println(m == nil)       // true
+	s := *new([]int)            // <=> var s []int
+	fmt.Println(s == nil)       // true
+	a := *new([5]bool)          // <=> var a [5]bool
+	fmt.Println(a == [5]bool{}) // true
+*/
 func main() {
 
+	// 用new函数开辟出来的【值】均为零值
+	m := *new(map[string]int)
+	fmt.Println(m == nil)
+
+	s := *new([]int)
+	fmt.Println(s == nil)
+
+	a := *new([5]bool)
+	fmt.Println(a == [5]bool{})
 }
