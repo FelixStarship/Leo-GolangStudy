@@ -131,11 +131,12 @@ type Ta []int
 */
 
 func main() {
+
 	// 遍历一个nil映射或者nil切片是允许的。这样的遍历可以看作是一个空操作。
 	var a []int
 	fmt.Println(a)
-	for range a {
-
+	for i, k := range a {
+		fmt.Println(i, k)
 	}
 
 	var a1 map[string]int
