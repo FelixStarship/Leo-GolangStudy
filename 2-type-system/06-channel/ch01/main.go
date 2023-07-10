@@ -102,7 +102,7 @@ c := make(chan int, 2) // 一个容量为2的缓冲通道
 */
 
 /*
-  var ball = make(chan string)
+    var ball = make(chan string)
 	kickBall := func(playerName string) {
 		for {
 			fmt.Print(<-ball, "传球", "\n")
