@@ -185,7 +185,7 @@ func (t T) M(n int) bool {
 
 func main() {
 
-	var i I = T("gzsl")
+	var i I = T("gzsl") // 将一个字符串"gzsl"转换为T类型
 
 	fmt.Println(i.M(5))
 
