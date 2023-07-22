@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // 5.类型断言
 
 /*
@@ -113,6 +115,85 @@ w = y.(Writer)     // panic: interface conversion: string is not main.Writer: mi
 	}
 */
 
+/*
+  words := []string{
+		"Go", "is", "a", "high",
+		"efficient", "language.",
+	}
+
+	// fmt.Println函数的原型为：
+	// func Println(a ...interface{}) (n int, err error)
+	// 所以words...不能传递给此函数的调用。
+
+	// fmt.Println(words...) // 编译不通过
+
+	// 将[]string值转换为类型[]interface{}。
+	iw := make([]interface{}, 0, len(words))
+	for _, w := range words {
+		iw = append(iw, w)
+	}
+	fmt.Println(iw...) // 编译没问题
+*/
+
+/*
+ words := []string{
+		"gzsl", "Go", "a", "格子衫来",
+		"长安九万里", "封神榜",
+	}
+
+	//fmt.Println(words....)  // []interface{}
+
+	iw := make([]interface{}, 0, len(words))
+
+	// 追加元素
+	for _, w := range words {
+		iw = append(iw, w)
+	}
+
+	fmt.Println(iw...) // 编译ok
+*/
+
+/*
+ type I interface {
+	m(int)bool
+}
+
+type T string
+func (t T) m(n int) bool {
+	return len(t) > n
+}
+var i I = T("gopher")
+	fmt.Println(i.m(5))                          // true
+	fmt.Println(I.m(i, 5))                       // true
+	fmt.Println(interface {m(int) bool}.m(i, 5)) // true
+
+	// 下面这几行被执行的时候都将会产生一个恐慌。
+	I(nil).m(5)
+	I.m(nil, 5)
+	interface {m(int) bool}.m(nil, 5)
+*/
+
+type I interface {
+	M(int) bool
+}
+
+type T string
+
+func (t T) M(n int) bool {
+	return len(t) > n
+}
+
 func main() {
 
+	var i I = T("gzsl")
+
+	fmt.Println(i.M(5))
+
+	fmt.Println(I.M(i, 5))
+
+	fmt.Println(interface{ M(int) bool }.M(i, 5))
+
+	//I(nil).M(5) //panic: runtime error: invalid memory address or nil pointer dereference
+	///I.M(nil, 5)
+	//interface{ M(int) bool }.M(nil, 5)
 }
