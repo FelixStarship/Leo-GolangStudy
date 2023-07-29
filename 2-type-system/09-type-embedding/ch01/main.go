@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 // 1.类型内嵌
 /*
@@ -89,14 +92,52 @@ type Singer struct {
 	works []string
 }
 
-func main() {
-
-	var gaga = Singer{Person: Person{"格子衫来", 18}}
+/*
+ var gaga = Singer{Person: Person{"格子衫来", 18}}
 	gaga.PrintName()
 
 	gaga.Name = "gzsl"
 	(&gaga).SetAge(31) // 指针类型（引用类型）
 	(&gaga).PrintName()
 	fmt.Println(gaga.Age)
+*/
+
+/*
+ t := reflect.TypeOf(Singer{}) // the Singer type
+	fmt.Println(t, "has", t.NumField(), "fields:")
+	for i := 0; i < t.NumField(); i++ {
+		fmt.Print(" field#", i, ": ", t.Field(i).Name, "\n")
+	}
+	fmt.Println(t, "has", t.NumMethod(), "methods:")
+	for i := 0; i < t.NumMethod(); i++ {
+		fmt.Print(" method#", i, ": ", t.Method(i).Name, "\n")
+	}
+
+	pt := reflect.TypeOf(&Singer{}) // the *Singer type
+	fmt.Println(pt, "has", pt.NumMethod(), "methods:")
+	for i := 0; i < pt.NumMethod(); i++ {
+		fmt.Print(" method#", i, ": ", pt.Method(i).Name, "\n")
+	}
+*/
+
+func main() {
+
+	t := reflect.TypeOf(Singer{})
+	fmt.Println(t, "has", t.NumField(), "fields:")
+	// 遍历结构体字段
+	for i := 0; i < t.NumField(); i++ {
+		fmt.Println(" field#", i, ":", t.Field(i).Name)
+	}
+	fmt.Println(t, "has", t.NumMethod(), "methods:")
+	// 遍历方法
+	for i := 0; i < t.NumMethod(); i++ {
+		fmt.Println(" method#", i, ":", t.Method(i).Name)
+	}
+
+	pt := reflect.TypeOf(&Singer{})
+	fmt.Println(pt, "has", pt.NumMethod(), "methods:")
+	for i := 0; i < pt.NumMethod(); i++ {
+		fmt.Println(" method#", i, ":", pt.Method(i).Name)
+	}
 
 }
